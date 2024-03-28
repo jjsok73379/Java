@@ -27,6 +27,7 @@ class Company {
     public static final Company APPLE = new Company();
     public static final Company ORACLE = new Company();
 }
+
 // FRUIT의 APPLE과 COMPANY의 APPLE이 같을 수 있다.
 interface FRUIT {
     int APPLE = 1, PEACH = 2, BANANA = 3;
